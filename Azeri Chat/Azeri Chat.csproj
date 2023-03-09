@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Azeri_Chat</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\gonder.png" />
+    <None Remove="Images\isi butov.png" />
+    <None Remove="Images\isi.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\gonder.png" />
+    <Resource Include="Images\isi butov.png" />
+    <Resource Include="Images\isi.jpg" />
+  </ItemGroup>
+
+</Project>
